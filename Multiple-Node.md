@@ -21,11 +21,10 @@
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="chmod +x ./multiple-node"><pre class="notranslate">
 <code>chmod +x ./multiple-node
 </code></pre></div><br>
-  
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="echo "PATH=$PATH:$CURRENT_DIR" >> ~/.bashrc">
-<pre class="notranslate">
-<code>echo "PATH=$PATH:$CURRENT_DIR" >> ~/.bashrc
-</code></pre></div><br>
+
+<p dir="auto"><code>echo "PATH=$PATH:$CURRENT_DIR" >> ~/.bashrc</code></p><br>
+
+
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="source ~/.bashrc">
 <pre class="notranslate">
 <code>source ~/.bashrc
