@@ -31,6 +31,7 @@
 "><pre class="notranslate">
 <code>sudo chmod a+r /etc/apt/keyrings/docker.gpg
 </code></pre></div><br>
+
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="echo \
   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
@@ -41,6 +42,9 @@
   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 </code></pre></div><br>
+
+
+
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo apt update -y && sudo apt upgrade -y
 "><pre class="notranslate">
 <code>sudo apt update -y && sudo apt upgrade -y
@@ -116,6 +120,9 @@ services:
     shm_size: "1gb"
     restart: unless-stopped
 </code></pre></div><br>
+<p dir="auto">To save and exit: <code>Ctrl+X+Y+Enter</code></p><br>
+<p dir="auto"><code>Ctrl+X+Y+Enter</code> ile kaydediyoruz</p><br>
+
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker compose up -d"><pre class="notranslate">
 <code>docker compose up -d
 </code></pre></div><br>
