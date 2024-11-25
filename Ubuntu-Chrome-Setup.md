@@ -4,11 +4,11 @@
   
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo apt update -y && sudo apt upgrade -y
 "><pre class="notranslate">
-<code>sudo apt-get update &amp;&amp; sudo apt update -y && sudo apt upgrade -y
+<code>sudo apt update -y && sudo apt upgrade -y
 </code></pre></div><br>
 
 
-<pre><span class="pl-c1">sudo apt update -y &amp;&amp; sudo apt upgrade -y</span>
+<pre><span class="pl-c1"></span>
 <span class="pl-c1">for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done</span>
 
 <span class="pl-c1">sudo apt-get update</span>
