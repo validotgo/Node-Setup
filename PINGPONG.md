@@ -1,9 +1,9 @@
 # PINGPONG Kurulumu & PINGPONG Installation
 
-
-
+<h3><a href="https://app.pingpong.build/trading?invite_code=9DHNMeEGyeRv">PINGPONG Register / PINGPONG Kayıt</a></h3>
+<br>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Eğer docker varsa bu aşamayı atlayabilirsiniz & If you have docker you can skip this step</h3>
-  
+
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo apt update -y && sudo apt upgrade -y
 "><pre class="notranslate">
 <code>sudo apt update -y && sudo apt upgrade -y
