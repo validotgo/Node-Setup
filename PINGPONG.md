@@ -54,9 +54,9 @@
 
 3. **PONGPONG Hesabımızdan Cihaz Ekleyelim ve Key Alalım & Let's Add Device and Get Key from Your PINGPONG Account**
 
-   <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="chmod +x ./PINGPONG && ./PINGPONG --key <KEY>">
+   <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="chmod +x ./PINGPONG && ./PINGPONG --key XXXXXXXXXX">
    <pre class="notranslate">
-   <code>chmod +x ./PINGPONG && ./PINGPONG --key <KEY>
+   <code>chmod +x ./PINGPONG && ./PINGPONG --key XXXXXXXXXX
    </code></pre>
    </div>
 
@@ -81,9 +81,9 @@
 
 3. **Tekrar Başlatalım & Start Again**
 
-   <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="chmod +x ./PINGPONG && ./PINGPONG --key <KEY>">
+   <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="chmod +x ./PINGPONG && ./PINGPONG --key XXXXXXXXXX">
    <pre class="notranslate">
-   <code>chmod +x ./PINGPONG && ./PINGPONG --key <KEY>
+   <code>chmod +x ./PINGPONG && ./PINGPONG --key XXXXXXXXXX
    </code></pre>
    </div>
    
