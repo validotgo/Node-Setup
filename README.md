@@ -1,6 +1,6 @@
 # Basit Node Kurulumları ve Tarayıcı Eklentileri
 
-**Validotgo** deposuna hoş geldiniz! Bu depo, aşağıdaki konular için basit ve anlaşılır bir rehber sunar:
+**Validotgo** reposuna hoş geldiniz! Bu repo, aşağıdaki konular için basit ve anlaşılır bir rehber sunar:
 
 - Blok zinciri ekosistemlerindeki farklı node kurulumları
 - Tarayıcı eklentileri üzerinde çalışan nodelar
