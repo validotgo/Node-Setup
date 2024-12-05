@@ -6,7 +6,7 @@
 <b>- [Dawn](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp)  : ygp7dz<br>
 <b>- [Nodepay](https://app.nodepay.ai/register?ref=taVtDTpsmwvoqxK)  
 <b>- [OasisAI](https://r.oasis.ai/xavia)  
-<b>- [BlockMesh]([https://app.blockmesh.xyz/register?invite_code=XAVIA)  
+<b>- [BlockMesh](https://app.blockmesh.xyz/register?invite_code=XAVIA)  
 <b>- [Bless](https://bless.network/dashboard?ref=J02QT6)  
 <b>- [Functor Node](https://node.securitylabs.xyz/?from=extension&type=signin&referralCode=cm03tyd4iz7v7l61ayaus3afb)  
 <b>- [Alphaos](https://alphaos.net/point?invite=0NL7YJ)  
