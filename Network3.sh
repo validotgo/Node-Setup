@@ -18,6 +18,12 @@ wget https://network3.io/ubuntu-node-v2.1.0.tar
 # Extract the Archive
 tar -xf ubuntu-node-v2.1.0.tar
 
+# Install Net Tools
+sudo apt-get install -y net-tools
+
+# Bring Up the Network Interface
+/sbin/ifconfig eth0 up
+
 # Navigate to the Extracted Directory
 cd ubuntu-node
 
