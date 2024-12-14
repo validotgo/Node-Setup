@@ -10,7 +10,8 @@ wget $PROGRAM_URL -O PINGPONG
 screen -dmS pingpong
 
 # Screen içerisine komutları gönderme
-screen -S pingpong -X stuff "chmod +x ./PINGPONG && ./PINGPONG --key "
+screen -S pingpong -X stuff "chmod +x ./PINGPONG && ./PINGPONG --key"
+screen -S pingpong -X stuff "\n"
 
 # Kullanıcıya bilgi verme
 echo "Script çalıştırıldı. Screen içinde 'chmod +x ./PINGPONG && ./PINGPONG --key' komutu yazıldı ve bekliyor."
