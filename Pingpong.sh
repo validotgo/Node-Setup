@@ -3,10 +3,6 @@
 # Hata durumunda scripti durdur
 set -e
 
-# Gerekli araçların yüklü olup olmadığını kontrol et
-command -v wget >/dev/null 2>&1 || { echo >&2 "wget gereklidir. Lütfen önce yükleyin."; exit 1; }
-command -v screen >/dev/null 2>&1 || { echo >&2 "screen gereklidir. Lütfen önce yükleyin."; exit 1; }
-
 # Konsol için renkli çıktı
 GREEN='\033[0;32m'
 RED='\033[0;31m'
