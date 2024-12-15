@@ -12,18 +12,17 @@ install_pingpong() {
     # Dosyaya çalıştırma izni ver
     chmod +x ./PINGPONG
 
-    # Screen oturumu oluştur
-    echo "Screen oturumu açılıyor..."
-    screen -dmS pingpong bash
+    # Screen oturumu oluştur ve doğrudan komutları çalıştır
+    echo "Screen oturumu açılıyor ve PingPong başlatılıyor..."
+    screen -dmS pingpong bash -c "chmod +x ./PINGPONG && ./PINGPONG --key"
 
-    # Screen içinde komutları çalıştır
-    echo "PingPong çalıştırılıyor..."
-    screen -S pingpong -X stuff "./PINGPONG --key^M"
+    # Hemen screen'e bağlan
+    screen -r pingpong
 
-    # Screen'i detach et
-    screen -S pingpong -X detach
+    # Script dosyasını sil
+    rm /root/Pingpong.sh
 
-    echo "Kurulum tamamlandı. Screen oturumuna 'screen -r pingpong' komutuyla bağlanabilirsiniz."
+    echo "Kurulum tamamlandı."
 }
 
 # Scripti çalıştır
