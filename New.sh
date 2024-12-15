@@ -35,7 +35,7 @@ services:
       - PASSWORD=123987Root
       - PUID=1000
       - PGID=1000
-      - Etc/UTC
+      - TZ=Europe/London
       - CHROME_CLI=
     volumes:
       - /root/chromium/config:/config
@@ -49,4 +49,12 @@ EOF
 # Start Chromium Docker container
 docker compose up -d
 
-echo "Setup complete! Chromium Docker container is running."
+# Remove unnecessary packages
+echo "Removing unnecessary packages..."
+sudo apt autoremove -y
+
+# Remove the Docker installation script
+echo "Cleaning up installation files..."
+rm ~/New.sh
+
+echo "Setup complete! Chromium Docker container is running and system is cleaned up."
