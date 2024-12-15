@@ -9,32 +9,11 @@
 <code>sudo apt update -y && sudo apt upgrade -y
 </code></pre></div><br>
 
-
-<pre><span class="pl-c1"></span>
-<span class="pl-c1">for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done</span>
-
-<span class="pl-c1">sudo apt-get update</span>
-<span class="pl-c1">sudo apt-get install ca-certificates curl gnupg</span>
-<span class="pl-c1">sudo install -m 0755 -d /etc/apt/keyrings</span>
-<span class="pl-c1">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span>
-<span class="pl-c1">sudo chmod a+r /etc/apt/keyrings/docker.gpg</span>
-
-<span class="pl-c1">echo \</span>
-<span class="pl-c1">  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \</span>
-<span class="pl-c1">  "$(. /etc/os-release &amp;&amp; echo "$VERSION_CODENAME")" stable" | \</span>
-<span class="pl-c1">  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null</span>
-
-<span class="pl-c1">sudo apt update -y &amp;&amp; sudo apt upgrade -y</span>
-
-<span class="pl-c1">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</span>
-
-# <span class="pl-s1">Test Docker</span>
-<span class="pl-c1">sudo docker run hello-world</span></pre></div>
-
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker --version
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && sudo usermod -aG docker $USER && sudo systemctl enable docker && sudo systemctl start docker
 "><pre class="notranslate">
-<code>docker --version
+<code>curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && sudo usermod -aG docker $USER && sudo systemctl enable docker && sudo systemctl start docker
 </code></pre></div><br>
+
 
 1. **Programı İndirelim & Download the Program**
 
