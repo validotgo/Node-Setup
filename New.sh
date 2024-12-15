@@ -35,7 +35,7 @@ services:
       - PASSWORD=123987Root
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - Etc/UTC
       - CHROME_CLI=
     volumes:
       - /root/chromium/config:/config
