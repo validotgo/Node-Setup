@@ -4,12 +4,22 @@
 
 # Exit on any error
 set -e
+# Uyarıları devre dışı bırakmak için debconf ayarlarını yap
+echo "debconf ayarları yapılıyor..."
+export DEBIAN_FRONTEND=noninteractive
+sudo apt install -y debconf-utils
+echo '* libraries/restart-without-asking boolean true' | sudo debconf-set-selections
 
 # Sunucuyu güncelle
 echo "Sunucu güncelleniyor..."
-export DEBIAN_FRONTEND=noninteractive
 sudo apt update -y 
-sudo apt upgrade -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"
+sudo apt upgrade -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confnew"
+
+# Kernel güncellemesi durumunda uyarıyı bastır ve gerekirse yeniden başlat
+if [ -f /var/run/reboot-required ]; then
+  echo "Çekirdek yükseltmesi tespit edildi. Sistem yeniden başlatılıyor..."
+  sudo reboot
+fi
 
 # Gerekli bağımlılıkları yükle
 echo "Gerekli bağımlılıklar yükleniyor..."
