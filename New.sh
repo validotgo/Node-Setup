@@ -8,7 +8,8 @@ set -e
 # Sunucuyu güncelle
 echo "Sunucu güncelleniyor..."
 export DEBIAN_FRONTEND=noninteractive
-sudo apt update -y && sudo apt upgrade -y --allow-downgrades --allow-remove-essential --allow-change-held-packages
+sudo apt update -y 
+sudo apt upgrade -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"
 
 # Gerekli bağımlılıkları yükle
 echo "Gerekli bağımlılıklar yükleniyor..."
