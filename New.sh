@@ -5,9 +5,14 @@
 # Exit on any error
 set -e
 
-# Update and upgrade system
-echo "Updating and upgrading system..."
-sudo apt update -y && sudo apt upgrade -y
+# Sunucuyu güncelle
+echo "Sunucu güncelleniyor..."
+export DEBIAN_FRONTEND=noninteractive
+sudo apt update -y && sudo apt upgrade -y --allow-downgrades --allow-remove-essential --allow-change-held-packages
+
+# Gerekli bağımlılıkları yükle
+echo "Gerekli bağımlılıklar yükleniyor..."
+sudo apt install -y curl apt-transport-https ca-certificates software-properties-common
 
 # Install Docker
 echo "Installing Docker..."
