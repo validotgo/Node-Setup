@@ -22,3 +22,7 @@ install_pingpong() {
 
 # Scripti çalıştır
 install_pingpong
+
+# Script dosyasını sil
+echo "Script dosyası siliniyor..."
+rm -- "$0"
