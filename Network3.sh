@@ -10,7 +10,7 @@ cd ~
 sudo apt install -y wireguard
 
 # Download the Network3 Node Archive
-https://network3.io/ubuntu-node-v2.1.1.tar.gz
+wget https://network3.io/ubuntu-node-v2.1.1.tar.gz
 
 # Extract the Archive
 tar -xf ubuntu-node-v2.1.1.tar.gz
