@@ -19,7 +19,7 @@ tar -xf ubuntu-node-v2.1.1.tar.gz
 sudo apt-get install -y net-tools
 
 # Navigate to the Extracted Directory
-cd network3
+cd ubuntu-node
 
 # Start the Node
 sudo bash manager.sh up
