@@ -33,7 +33,7 @@ rm -f ~/ubuntu-node-v2.1.1.tar.gz
 
 # Remove the script itself (Network3.sh)
 echo "Script dosyası (Network3.sh) siliniyor..."
-rm -- "$0"
+rm -f ~/Network3.sh
 
 # Completion Message
 echo "WireGuard and Network3 Node setup completed successfully."
