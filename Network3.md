@@ -11,8 +11,8 @@
 <pre><span class="pl-c1"></span>
 <span class="pl-c1">sudo apt install wireguard</span>
 
-<span class="pl-c1">wget https://network3.io/ubuntu-node-v2.1.0.tar</span>
-<span class="pl-c1">tar -xf ubuntu-node-v2.1.0.tar</span>
+<span class="pl-c1">wget https://network3.io/ubuntu-node-v2.1.1.tar</span>
+<span class="pl-c1">tar -xf ubuntu-node-v2.1.1.tar</span>
 <span class="pl-c1">sudo apt-get install net-tools</span>
 <span class="pl-c1">/sbin/ifconfig eth0 up</span>
 <span class="pl-c1">cd ubuntu-node</span>
