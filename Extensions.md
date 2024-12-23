@@ -20,5 +20,4 @@
 <b>- [Meshchain](https://app.meshchain.ai/?ref=AB5UQ8INP0QK)  
 <b>- [Blockcast](https://app.blockcast.network/?referral-code=b4Kcga)  
 <b>- [OpenLoop.So](https://openloop.so/auth/register?ref=ol0796d6be) : ol0796d6be <br>
-<b>- [Grid Network Node](https://sso.getgrid.ai/registration?referral_code=9b56b52)  <br>
 <b>- [Stream AI](https://app.allstream.ai/index?referralCode=EjpVVRtk)  <br> 
