@@ -17,7 +17,5 @@
 <b>- [Kaisar](https://zero.kaisar.io/register?ref=ifzPSq040)  
 <b>- [Gaea](https://app.aigaea.net/register?ref=ga2alsQE6JDK9k)  
 <b>- [DataQuest](https://dataquest.nvg8.io//signup?ref=129539)     
-<b>- [Meshchain](https://app.meshchain.ai/?ref=AB5UQ8INP0QK)  
 <b>- [Blockcast](https://app.blockcast.network/?referral-code=b4Kcga)  
-<b>- [OpenLoop.So](https://openloop.so/auth/register?ref=ol0796d6be) : ol0796d6be <br>
 <b>- [Stream AI](https://app.allstream.ai/index?referralCode=EjpVVRtk)  <br> 
