@@ -43,6 +43,17 @@ else
     fi
 fi
 
+# Masaüstü kurulumundan sonra oluşan klasörleri sil
+printf "\n${kbred}-----> Gereksiz klasörler siliniyor${normal}\n"
+sleep 10  # Klasörlerin oluşması için 10 saniye bekle
+rm -rf ~/Documents
+rm -rf ~/Downloads
+rm -rf ~/Music
+rm -rf ~/Templates
+rm -rf ~/Pictures
+rm -rf ~/Videos
+rm -rf ~/Public
+
 # OpenLedger kurulumu
 wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
 unzip openledger-node-1.0.0-linux.zip
@@ -51,15 +62,10 @@ sudo dpkg -i openledger-node-1.0.0.deb
 # Bağımlılık sorunlarını çöz
 sudo apt-get install -f
 
-# Temizlik işlemleri - tüm gereksiz dosya ve klasörleri sil
-rm -rf ~/Documents
-rm -rf ~/Downloads
-rm -rf ~/Music
-rm -rf ~/Templates
-rm -rf ~/Pictures
-rm -rf ~/Videos
-rm -rf ~/Public
+# Son temizlik işlemleri
+printf "\n${kbred}-----> Kurulum dosyaları temizleniyor${normal}\n"
 rm -f OpenLedger.sh
+rm -f openledger-node-1.0.0-linux.zip
 
 clear && printf '\e[3J'
 echo ""
