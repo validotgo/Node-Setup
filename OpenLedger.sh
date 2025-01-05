@@ -9,9 +9,6 @@
     kbred=$(echo "\033[33;3m")
     printf "\n${kbred}-----> Kurulum başlıyor${normal}\n"
 
-# Root şifresini değiştir
-echo "root:123987Ve" | sudo chpasswd
-
 # Sistem güncellemesi
 sudo apt update
 
