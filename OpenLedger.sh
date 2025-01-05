@@ -59,7 +59,7 @@ unzip openledger-node-1.0.0-linux.zip
 sudo apt-get install -f
 
 # OpenLedger sh dosyasını sil
-rm -f openledger.sh
+rm -f OpenLedger.sh
 
 clear && printf '\e[3J'
 echo ""
