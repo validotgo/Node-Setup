@@ -1,3 +1,4 @@
+
 #!/bin/bash
     slm=$(echo "\033[31;3m")
     normal=$(echo "\033[m")
@@ -42,7 +43,15 @@ else
     fi
 fi
 
-# Gereksiz klasörleri sil
+# OpenLedger kurulumu
+wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
+unzip openledger-node-1.0.0-linux.zip
+sudo dpkg -i openledger-node-1.0.0.deb
+
+# Bağımlılık sorunlarını çöz
+sudo apt-get install -f
+
+# Temizlik işlemleri - tüm gereksiz dosya ve klasörleri sil
 rm -rf ~/Documents
 rm -rf ~/Downloads
 rm -rf ~/Music
@@ -50,15 +59,6 @@ rm -rf ~/Templates
 rm -rf ~/Pictures
 rm -rf ~/Videos
 rm -rf ~/Public
-
-# OpenLedger kurulumu
-wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
-unzip openledger-node-1.0.0-linux.zip
-
-# Bağımlılık sorunlarını çöz
-sudo apt-get install -f
-
-# OpenLedger sh dosyasını sil
 rm -f OpenLedger.sh
 
 clear && printf '\e[3J'
