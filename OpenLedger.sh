@@ -43,16 +43,6 @@ else
     fi
 fi
 
-# Masaüstü kurulumundan sonra oluşan klasörleri sil
-printf "\n${kbred}-----> Gereksiz klasörler siliniyor${normal}\n"
-sleep 10  # Klasörlerin oluşması için 10 saniye bekle
-rm -rf ~/Documents
-rm -rf ~/Downloads
-rm -rf ~/Music
-rm -rf ~/Templates
-rm -rf ~/Pictures
-rm -rf ~/Videos
-rm -rf ~/Public
 
 # OpenLedger kurulumu
 wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
