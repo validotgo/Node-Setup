@@ -12,8 +12,37 @@ echo "Gerekli bağımlılıklar yükleniyor..."
 sudo apt install -y curl apt-transport-https ca-certificates software-properties-common gnupg
 
 # Docker kurulumu
-echo "Docker kuruluyor..."
-curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && sudo usermod -aG docker $USER && sudo systemctl enable docker && sudo systemctl start docker
+# Mevcut Docker paketlerini kaldır
+echo "Mevcut Docker paketleri kaldırılıyor..."
+for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do 
+    sudo apt-get remove -y $pkg
+done
+
+# Gerekli paketleri yükle
+echo "Gerekli paketler yükleniyor..."
+sudo apt-get update
+sudo apt-get install -y ca-certificates curl gnupg
+
+# Docker GPG anahtarını ayarla
+echo "Docker GPG anahtarı ekleniyor..."
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Docker deposunu ekle
+echo "Docker deposu ekleniyor..."
+echo \
+  "deb [arch=\"$(dpkg --print-architecture)\" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  \"$({ source /etc/os-release && echo $VERSION_CODENAME; })\" stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Paketleri tekrar güncelle
+echo "Depolar güncelleniyor..."
+sudo apt update -y && sudo apt upgrade -y
+
+# Docker ve Docker Compose eklentisini yükle
+echo "Docker ve Docker Compose kuruluyor..."
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Chromium için dizin oluştur ve docker-compose.yaml oluştur
 echo "Chromium kurulumu yapılıyor..."
@@ -30,7 +59,7 @@ services:
       - seccomp:unconfined #optional
     environment:
       - CUSTOM_USER=chrome
-      - PASSWORD=123987Root
+      - PASSWORD=123456 
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
