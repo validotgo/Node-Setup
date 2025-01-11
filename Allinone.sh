@@ -30,7 +30,7 @@ services:
       - seccomp:unconfined #optional
     environment:
       - CUSTOM_USER=chrome
-      - PASSWORD=123456 
+      - PASSWORD=123987Root 
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
