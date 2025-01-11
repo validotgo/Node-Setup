@@ -9,11 +9,11 @@ sudo apt update -y && sudo apt upgrade -y
 
 # Gerekli bağımlılıklar yükleniyor
 echo "Gerekli bağımlılıklar yükleniyor..."
-sudo apt install -y curl apt-transport-https ca-certificates software-properties-common
+sudo apt install -y curl apt-transport-https ca-certificates software-properties-common gnupg
 
-# Docker ve Docker Compose kurulum
-echo "Docker ve Docker Compose kuruluyor..."
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+# Docker kurulumu
+echo "Docker kuruluyor..."
+curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && sudo usermod -aG docker $USER && sudo systemctl enable docker && sudo systemctl start docker
 
 # Chromium için dizin oluştur ve docker-compose.yaml oluştur
 echo "Chromium kurulumu yapılıyor..."
@@ -30,7 +30,7 @@ services:
       - seccomp:unconfined #optional
     environment:
       - CUSTOM_USER=chrome
-      - PASSWORD=123987Root 
+      - PASSWORD=123987Root
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
