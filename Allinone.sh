@@ -59,7 +59,7 @@ services:
       - seccomp:unconfined #optional
     environment:
       - CUSTOM_USER=chrome
-      - PASSWORD=123456 
+      - PASSWORD=123987Root 
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
@@ -69,7 +69,7 @@ services:
     ports:
       - 3010:3000
       - 3011:3001
-    shm_size: "1gb"
+    shm_size: "3gb"
     restart: unless-stopped
 EOF
 
