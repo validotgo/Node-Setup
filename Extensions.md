@@ -18,4 +18,7 @@
 <b>- [Gaea](https://app.aigaea.net/register?ref=ga2alsQE6JDK9k)  
 <b>- [DataQuest](https://dataquest.nvg8.io//signup?ref=129539)     
 <b>- [Blockcast](https://app.blockcast.network/?referral-code=b4Kcga)  
-<b>- [Stream AI](https://app.allstream.ai/index?referralCode=EjpVVRtk)  <br> 
+<b>- [Stream AI](https://app.allstream.ai/index?referralCode=EjpVVRtk)  
+<b>- [Voltix](https://voltix.ai/login?ref=EZFWB)  
+
+<br> 
