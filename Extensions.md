@@ -20,5 +20,6 @@
 <b>- [Blockcast](https://app.blockcast.network/?referral-code=b4Kcga)  
 <b>- [Stream AI](https://app.allstream.ai/index?referralCode=EjpVVRtk)  
 <b>- [Voltix](https://voltix.ai/login?ref=EZFWB)  
+<b>- [Capfizz](https://mainnet.capfizz.com/register?ref=IZK0N1)  
 
 <br> 
