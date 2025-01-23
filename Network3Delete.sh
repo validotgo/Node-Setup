@@ -24,5 +24,8 @@ sudo apt autoremove -y
 # WireGuard yapılandırmalarını sil
 sudo rm -rf /etc/wireguard
 
+# Network3Delete.sh dosyasını sil
+sudo rm -rf Network3Delete.sh
+
 # İşlem tamamlandı mesajı
 echo "Temizlik işlemleri başarıyla tamamlandı."
