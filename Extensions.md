@@ -12,14 +12,12 @@
 <b>- [Alphaos](https://alphaos.net/point?invite=0NL7YJ)  
 <b>- [Toggle](https://toggle.pro/sign-up/9c28e224-8d31-4efb-b1c3-b8c639f480f5)  
 <b>- [Pipe Network](https://pipecdn.app/signup?ref=eGF2aWFub2)  
-<b>- [Kleo Network](https://chromewebstore.google.com/detail/kleo-network/jimpblheogbjfgajkccdoehjfadmimoo?refAddress=0x7033AB52129aa42eC433A1DB48a18d5c952dF5D0)  
 <b>- [Teneo Community Node](https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm)  : jcDva<br>
 <b>- [Kaisar](https://zero.kaisar.io/register?ref=ifzPSq040)  
 <b>- [Gaea](https://app.aigaea.net/register?ref=ga2alsQE6JDK9k)  
 <b>- [DataQuest](https://dataquest.nvg8.io//signup?ref=129539)     
 <b>- [Blockcast](https://app.blockcast.network/?referral-code=b4Kcga)  
-<b>- [Stream AI](https://app.allstream.ai/index?referralCode=EjpVVRtk)  
-<b>- [Voltix](https://voltix.ai/login?ref=EZFWB)  
+<b>- [Stream AI](https://ref.minionlab.io/?referralCode=EjpVVRtk)  
+<b>- [Voltix](https://voltix.ai/login?ref=EZFWB)<br> 
 <b>- [Capfizz](https://mainnet.capfizz.com/register?ref=IZK0N1)  
-
 <br> 
