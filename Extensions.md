@@ -17,7 +17,9 @@
 <b>- [Gaea](https://app.aigaea.net/register?ref=ga2alsQE6JDK9k)  
 <b>- [DataQuest](https://dataquest.nvg8.io//signup?ref=129539)     
 <b>- [Blockcast](https://app.blockcast.network/?referral-code=b4Kcga)  
-<b>- [Stream AI](https://ref.minionlab.io/?referralCode=EjpVVRtk)  
+<b>- [MinionLab](https://ref.minionlab.io/?referralCode=EjpVVRtk)  
 <b>- [Voltix](https://voltix.ai/login?ref=EZFWB)<br> 
-<b>- [Capfizz](https://mainnet.capfizz.com/register?ref=IZK0N1)  
+<b>- [Capfizz](https://mainnet.capfizz.com/register?ref=IZK0N1)  <br> 
+<b>- [NodeGo](https://app.nodego.ai/r/NODE679302454BF0)  <br> 
+
 <br> 
