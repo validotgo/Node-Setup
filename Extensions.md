@@ -21,5 +21,5 @@
 <b>- [Voltix](https://voltix.ai/login?ref=EZFWB)<br> 
 <b>- [Capfizz](https://mainnet.capfizz.com/register?ref=IZK0N1)  <br> 
 <b>- [NodeGo](https://app.nodego.ai/r/NODE679302454BF0)  <br> 
-
+<b>- [OptimAI Network](https://node.optimai.network/register?ref=1E4BC514)  <br> 
 <br> 
